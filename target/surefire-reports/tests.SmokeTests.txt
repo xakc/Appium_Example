@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: tests.SmokeTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 0.523 s <<< FAILURE! - in tests.SmokeTests
+beforeAll(tests.SmokeTests)  Time elapsed: 0.406 s  <<< FAILURE!
+java.lang.NoSuchMethodError: com.google.common.base.Preconditions.checkArgument(ZLjava/lang/String;I)V
+
+afterEach(tests.SmokeTests)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.NullPointerException
+
